@@ -7,13 +7,13 @@ const Header: React.FC = () => {
       <Image src="/img/logo.svg" alt="Logo" width={150} height={33} />
 
       <nav className="hidden md:block space-x-8">
-        <Link href="/nesxtjs">
+        <Link href="/nextjs">
           <a className="tracking-wide hover:text-gray-300">Next.js</a>
         </Link>
         <Link href="/tailwind">
           <a className="tracking-wide hover:text-gray-300">Taillwind</a>
         </Link>
-        <Link href="/framemotion">
+        <Link href="/framermotion">
           <a className="tracking-wide hover:text-gray-300">Framer Motion</a>
         </Link>
       </nav>
